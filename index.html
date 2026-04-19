@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub AI - Find help faster</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-sq">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-item active">Home</a>
+                <a href="explore.html" class="nav-item">Explore</a>
+                <a href="leaderboard.html" class="nav-item">Leaderboard</a>
+                <a href="ai-center.html" class="nav-item">AI Center</a>
+            </nav>
+            <div class="nav-right">
+                <div class="signal-pill">Live community signals</div>
+                <a href="login.html" class="btn-join">Join the platform</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="subtitle">SMIT GRAND CODING NIGHT 2026</span>
+                    <h1 class="hero-title">Find help faster.<br>Become help that matters.</h1>
+                    <p class="hero-desc">
+                        HelpHub AI is a community-powered support network for students, mentors, creators, and builders. Ask for help, offer help, track impact, and let AI surface smarter matches across the platform.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="explore.html" class="btn btn-primary" style="text-decoration: none;">Open product demo</a>
+                        <a href="create-request.html" class="btn btn-secondary" style="text-decoration: none;">Post a request</a>
+                    </div>
+                    <div class="stats-container">
+                        <div class="stats-card">
+                            <span class="stats-label">MEMBERS</span>
+                            <span class="stats-value">384+</span>
+                            <p class="stats-info">Students, mentors, and helpers in the loop.</p>
+                        </div>
+                        <div class="stats-card">
+                            <span class="stats-label">REQUESTS</span>
+                            <span class="stats-value">72+</span>
+                            <p class="stats-info">Support posts shared across learning journeys.</p>
+                        </div>
+                        <div class="stats-card">
+                            <span class="stats-label">SOLVED</span>
+                            <span class="stats-value">69+</span>
+                            <p class="stats-info">Problems resolved through fast community action.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="ecosystem-card">
+                        <div class="ecosystem-header">
+                            <span class="live-tag">LIVE PRODUCT FEEL</span>
+                            <div class="orb"></div>
+                        </div>
+                        <h2 class="ecosystem-title">More than a form.<br>More like an ecosystem.</h2>
+                        <p class="ecosystem-desc">
+                            A polished multi-page experience inspired by product platforms, with AI summaries, trust scores, contribution signals, notifications, and leaderboard momentum built directly in HTML, CSS, JavaScript, and LocalStorage.
+                        </p>
+                        <div class="eco-feature">
+                            <h3>AI request intelligence</h3>
+                            <p>Auto-categorization, urgency detection, tags, rewrite suggestions, and trend snapshots.</p>
+                        </div>
+                        <div class="eco-feature">
+                            <h3>Community trust graph</h3>
+                            <p>Badges, helper rankings, trust score boosts, and visible contribution history.</p>
+                        </div>
+                        <div class="eco-feature">
+                            <h3>100%</h3>
+                            <p>Top trust score currently active across the sample mentor network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="core-flow-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <span class="section-tag">CORE FLOW</span>
+                        <h2 class="section-heading">From struggling alone to solving together</h2>
+                    </div>
+                    <button class="btn btn-pill">Try onboarding AI</button>
+                </div>
+                <div class="flow-grid">
+                    <div class="flow-card">
+                        <h3>Ask for help clearly</h3>
+                        <p>Create structured requests with category, urgency, AI suggestions, and tags that attract the right people.</p>
+                    </div>
+                    <div class="flow-card">
+                        <h3>Discover the right people</h3>
+                        <p>Use the explore feed, helper lists, notifications, and messaging to move quickly once a match happens.</p>
+                    </div>
+                    <div class="flow-card">
+                        <h3>Track real contribution</h3>
+                        <p>Trust scores, badges, solved requests, and rankings help the community recognize meaningful support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <span class="section-tag">FEATURED REQUESTS</span>
+                        <h2 class="section-heading">Community problems currently in motion</h2>
+                    </div>
+                    <button class="btn btn-pill">View full feed</button>
+                </div>
+                <div class="requests-grid">
+                    <!-- Request 1 -->
+                    <div class="request-card">
+                        <div class="badge-row">
+                            <span class="badge badge-teal">Web Development</span>
+                            <span class="badge badge-red">High</span>
+                            <span class="badge badge-green">Solved</span>
+                        </div>
+                        <h3 class="req-title">Need help</h3>
+                        <p class="req-content">helpn needed</p>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Ayesha Khan</span>
+                                <span class="user-meta">Karachi • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+                    <!-- Request 2 -->
+                    <div class="request-card">
+                        <div class="badge-row">
+                            <span class="badge badge-teal">Web Development</span>
+                            <span class="badge badge-red">High</span>
+                            <span class="badge badge-green">Solved</span>
+                        </div>
+                        <h3 class="req-title">Need help making my portfolio responsive before demo day</h3>
+                        <p class="req-content">My HTML/CSS portfolio breaks on tablets and I need layout guidance before tomorrow evening.</p>
+                        <div class="pill-row">
+                            <span class="pill-tag">HTML/CSS</span>
+                            <span class="pill-tag">Responsive</span>
+                            <span class="pill-tag">Portfolio</span>
+                        </div>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Sara Noor</span>
+                                <span class="user-meta">Karachi • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+                    <!-- Request 3 -->
+                    <div class="request-card">
+                        <div class="badge-row">
+                            <span class="badge badge-mint">Design</span>
+                            <span class="badge badge-yellow">Medium</span>
+                            <span class="badge badge-blue">Open</span>
+                        </div>
+                        <h3 class="req-title">Looking for Figma feedback on a volunteer event poster</h3>
+                        <p class="req-content">I have a draft poster for a campus community event and want sharper hierarchy, spacing, and CTA copy.</p>
+                        <div class="pill-row">
+                            <span class="pill-tag">Figma</span>
+                            <span class="pill-tag">Poster</span>
+                            <span class="pill-tag">Design Review</span>
+                        </div>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Ayesha Khan</span>
+                                <span class="user-meta">Lahore • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>HelpHub AI is built as a premium-feel, multi-page community support product using HTML, CSS, JavaScript, and LocalStorage.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

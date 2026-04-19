@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - HelpHub AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="login-page">
+    <div class="bg-overlay"></div>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <div class="logo-circle">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links-simple">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="login-main">
+        <div class="container login-grid">
+            <!-- Left Card: Community Access -->
+            <div class="access-card">
+                <span class="card-tag">COMMUNITY ACCESS</span>
+                <h1 class="card-title">Enter the support network.</h1>
+                <p class="card-desc">
+                    Choose a demo identity, set your role, and jump into a multi-page product flow designed for asking, offering, and tracking help with a premium interface.
+                </p>
+                <ul class="card-list">
+                    <li>Role-based entry for Need Help, Can Help, or Both</li>
+                    <li>Direct path into dashboard, requests, AI Center, and community feed</li>
+                    <li>Persistent demo session powered by LocalStorage</li>
+                </ul>
+            </div>
+
+            <!-- Right Card: Authenticate -->
+            <div class="auth-card">
+                <span class="card-tag tag-teal">LOGIN / SIGNUP</span>
+                <h2 class="card-title-dark">Authenticate your community profile</h2>
+                
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label>Select demo user</label>
+                        <div class="select-wrapper">
+                            <select>
+                                <option>Ayesha Khan</option>
+                                <option>Sara Noor</option>
+                                <option>John Doe</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Role selection</label>
+                        <div class="select-wrapper">
+                            <select>
+                                <option>Both</option>
+                                <option>Need Help</option>
+                                <option>Can Help</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label>Email</label>
+                            <input type="email" value="community@helphub.ai" readonly>
+                        </div>
+                        <div class="form-group half">
+                            <label>Password</label>
+                            <input type="password" value="********" readonly>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-teal btn-block">Continue to dashboard</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

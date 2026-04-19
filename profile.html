@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - HelpHub AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="profile-page">
+    <div class="bg-overlay"></div>
+    
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <div class="logo-circle">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links-simple">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="ai-center.html">AI Center</a>
+                <a href="notifications.html">Notifications</a>
+                <a href="messages.html">Messages</a>
+                <a href="profile.html" class="active-pill">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="profile-main">
+        <div class="container">
+            <!-- Header Card -->
+            <div class="profile-header-card">
+                <span class="card-tag">PROFILE</span>
+                <h1 class="profile-name">Ayesha Khan</h1>
+                <p class="profile-meta">Both • Karachi</p>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="profile-grid">
+                <!-- Left: Public Profile -->
+                <section class="public-profile-card">
+                    <span class="section-tag">PUBLIC PROFILE</span>
+                    <h2 class="section-heading">Skills and reputation</h2>
+
+                    <div class="stats-table">
+                        <div class="stat-row">
+                            <span class="stat-label">Trust score</span>
+                            <span class="stat-value">100%</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Contributions</span>
+                            <span class="stat-value">35</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3 class="inner-heading">Skills</h3>
+                        <div class="pill-row">
+                            <span class="pill-tag badge-teal">Figma</span>
+                            <span class="pill-tag badge-teal">UI/UX</span>
+                            <span class="pill-tag badge-teal">HTML/CSS</span>
+                            <span class="pill-tag badge-teal">Career Guidance</span>
+                        </div>
+                    </div>
+
+                    <div class="badges-section">
+                        <h3 class="inner-heading">Badges</h3>
+                        <div class="pill-row">
+                            <span class="pill-tag badge-mint">Design Ally</span>
+                            <span class="pill-tag badge-mint">Fast Responder</span>
+                            <span class="pill-tag badge-mint">Top Mentor</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Right: Edit Profile -->
+                <section class="edit-profile-card">
+                    <span class="section-tag">EDIT PROFILE</span>
+                    <h2 class="section-heading">Update your identity</h2>
+
+                    <form class="edit-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" value="Ayesha Khan">
+                            </div>
+                            <div class="form-group">
+                                <label>Location</label>
+                                <input type="text" value="Karachi">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Skills</label>
+                            <input type="text" value="Figma, UI/UX, HTML/CSS, Career Guidance">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Interests</label>
+                            <input type="text" value="Hackathons, UI/UX, Community Building">
+                        </div>
+
+                        <button type="submit" class="btn btn-teal btn-block">Save profile</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>HelpHub AI is built as a premium-feel, multi-page community support product using HTML, CSS, JavaScript, and LocalStorage.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

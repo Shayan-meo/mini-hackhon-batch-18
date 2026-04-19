@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications - HelpHub AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="notifications-page">
+    <div class="bg-overlay"></div>
+    
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <div class="logo-circle">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links-simple">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="ai-center.html">AI Center</a>
+                <a href="notifications.html" class="active-pill">Notifications</a>
+                <a href="messages.html">Messages</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="notifications-main">
+        <div class="container">
+            <!-- Header Card -->
+            <div class="notif-header-card">
+                <span class="card-tag">NOTIFICATIONS</span>
+                <h1 class="notif-title">Stay updated on requests, helpers, and trust signals.</h1>
+                <p class="notif-desc">Track new matches, solved items, AI insights, and reputation changes in one place.</p>
+            </div>
+
+            <!-- Feed Container -->
+            <div class="notif-feed-container">
+                <span class="section-tag-teal">LIVE UPDATES</span>
+                <h2 class="section-heading-dark">Notification feed</h2>
+
+                <div class="notif-list">
+                    <!-- Notif 1 -->
+                    <div class="notif-item">
+                        <div class="notif-content">
+                            <h3 class="notif-item-title">New helper matched to your responsive portfolio request</h3>
+                            <span class="notif-meta">Match • 12 min ago</span>
+                        </div>
+                        <button class="btn-status">Unread</button>
+                    </div>
+
+                    <!-- Notif 2 -->
+                    <div class="notif-item">
+                        <div class="notif-content">
+                            <h3 class="notif-item-title">Your trust score increased after a solved request</h3>
+                            <span class="notif-meta">Reputation • 1 hr ago</span>
+                        </div>
+                        <button class="btn-status">Unread</button>
+                    </div>
+
+                    <!-- Notif 3 -->
+                    <div class="notif-item">
+                        <div class="notif-content">
+                            <h3 class="notif-item-title">AI Center detected rising demand for interview prep</h3>
+                            <span class="notif-meta">Insight • Today</span>
+                        </div>
+                        <button class="btn-status status-read">Read</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>HelpHub AI is built as a premium-feel, multi-page community support product using HTML, CSS, JavaScript, and LocalStorage.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

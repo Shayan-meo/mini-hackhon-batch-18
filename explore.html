@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Feed - HelpHub AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="explore-page">
+    <div class="bg-overlay"></div>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <div class="logo-circle">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links-simple">
+                <a href="index.html">Home</a>
+                <a href="explore.html" class="active-pill">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="ai-center.html">AI Center</a>
+                <a href="notifications.html">Notifications</a>
+                <a href="messages.html">Messages</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="explore-main">
+        <div class="container">
+            <!-- Explore Header Card -->
+            <div class="explore-header-card">
+                <span class="card-tag">EXPLORE / FEED</span>
+                <h1 class="explore-title">Browse help requests with filterable community context.</h1>
+                <p class="explore-desc">Filter by category, urgency, skills, and location to surface the best matches.</p>
+            </div>
+
+            <div class="explore-content-grid">
+                <!-- Sidebar Filters -->
+                <aside class="filters-sidebar">
+                    <div class="filters-card">
+                        <span class="filter-tag">FILTERS</span>
+                        <h2 class="filter-heading">Refine the feed</h2>
+
+                        <div class="filter-group">
+                            <label>Category</label>
+                            <div class="select-wrapper">
+                                <select>
+                                    <option>All categories</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <label>Urgency</label>
+                            <div class="select-wrapper">
+                                <select>
+                                    <option>All urgency levels</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <label>Skills</label>
+                            <input type="text" placeholder="React, Figma, Git/GitHub">
+                        </div>
+
+                        <div class="filter-group">
+                            <label>Location</label>
+                            <input type="text" placeholder="Karachi, Lahore, Remote">
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Feed Content -->
+                <section class="feed-section">
+                    <!-- Request 1 -->
+                    <div class="request-card-horizontal">
+                        <div class="badge-row">
+                            <span class="badge badge-teal">Web Development</span>
+                            <span class="badge badge-red">High</span>
+                            <span class="badge badge-green">Solved</span>
+                        </div>
+                        <h3 class="req-title">Need help</h3>
+                        <p class="req-content">helpn needed</p>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Ayesha Khan</span>
+                                <span class="user-meta">Karachi • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+
+                    <!-- Request 2 -->
+                    <div class="request-card-horizontal">
+                        <div class="badge-row">
+                            <span class="badge badge-teal">Web Development</span>
+                            <span class="badge badge-red">High</span>
+                            <span class="badge badge-green">Solved</span>
+                        </div>
+                        <h3 class="req-title">Need help making my portfolio responsive before demo day</h3>
+                        <p class="req-content">My HTML/CSS portfolio breaks on tablets and I need layout guidance before tomorrow evening.</p>
+                        <div class="pill-row">
+                            <span class="pill-tag">HTML/CSS</span>
+                            <span class="pill-tag">Responsive</span>
+                            <span class="pill-tag">Portfolio</span>
+                        </div>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Sara Noor</span>
+                                <span class="user-meta">Karachi • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+
+                    <!-- Request 3 -->
+                    <div class="request-card-horizontal">
+                        <div class="badge-row">
+                            <span class="badge badge-mint">Design</span>
+                            <span class="badge badge-yellow">Medium</span>
+                            <span class="badge badge-blue">Open</span>
+                        </div>
+                        <h3 class="req-title">Looking for Figma feedback on a volunteer event poster</h3>
+                        <p class="req-content">I have a draft poster for a campus community event and want sharper hierarchy, spacing, and CTA copy.</p>
+                        <div class="pill-row">
+                            <span class="pill-tag">Figma</span>
+                            <span class="pill-tag">Poster</span>
+                            <span class="pill-tag">Design Review</span>
+                        </div>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Ayesha Khan</span>
+                                <span class="user-meta">Lahore • 1 helper interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+
+                    <!-- Request 4 -->
+                    <div class="request-card-horizontal">
+                        <div class="badge-row">
+                            <span class="badge badge-gray">Career</span>
+                            <span class="badge badge-blue-light">Low</span>
+                            <span class="badge badge-green">Solved</span>
+                        </div>
+                        <h3 class="req-title">Need mock interview support for internship applications</h3>
+                        <p class="req-content">Applying to frontend internships and need someone to practice behavioral and technical interview questions with me.</p>
+                        <div class="pill-row">
+                            <span class="pill-tag">Interview Prep</span>
+                            <span class="pill-tag">Career</span>
+                            <span class="pill-tag">Frontend</span>
+                        </div>
+                        <div class="req-footer">
+                            <div class="req-user">
+                                <span class="user-name">Sara Noor</span>
+                                <span class="user-meta">Remote • 2 helpers interested</span>
+                            </div>
+                            <a href="request-detail.html" class="btn-details" style="text-decoration: none;">Open details</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - HelpHub AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="messages-page">
+    <div class="bg-overlay"></div>
+    
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <div class="logo-circle">H</div>
+                <span class="logo-text">HelpHub AI</span>
+            </a>
+            <nav class="nav-links-simple">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="ai-center.html">AI Center</a>
+                <a href="notifications.html">Notifications</a>
+                <a href="messages.html" class="active-pill">Messages</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="messages-main">
+        <div class="container">
+            <!-- Header Card -->
+            <div class="msg-header-card">
+                <span class="card-tag">INTERACTION / MESSAGING</span>
+                <h1 class="msg-title">Keep support moving through direct communication.</h1>
+                <p class="msg-desc">Basic messaging gives helpers and requesters a clear follow-up path once a match happens.</p>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="msg-grid">
+                <!-- Left: Recent Messages -->
+                <section class="conversation-card">
+                    <span class="section-tag">CONVERSATION STREAM</span>
+                    <h2 class="section-heading">Recent messages</h2>
+
+                    <div class="message-list">
+                        <!-- Message 1 -->
+                        <div class="message-item">
+                            <div class="message-info">
+                                <h3 class="message-parties">Ayesha Khan → Sara Noor</h3>
+                                <p class="message-preview">I checked your portfolio request. Share the breakpoint screenshots and I can suggest fixes.</p>
+                            </div>
+                            <div class="message-time">
+                                <span>09:45</span>
+                                <span>AM</span>
+                            </div>
+                        </div>
+
+                        <!-- Message 2 -->
+                        <div class="message-item">
+                            <div class="message-info">
+                                <h3 class="message-parties">Hassan Ali → Ayesha Khan</h3>
+                                <p class="message-preview">Your event poster concept is solid. I would tighten the CTA and reduce the background texture.</p>
+                            </div>
+                            <div class="message-time">
+                                <span>11:10</span>
+                                <span>AM</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Right: Send Message -->
+                <section class="send-message-card">
+                    <span class="section-tag">SEND MESSAGE</span>
+                    <h2 class="section-heading">Start a conversation</h2>
+
+                    <form class="msg-form">
+                        <div class="form-group">
+                            <label>To</label>
+                            <div class="select-wrapper">
+                                <select>
+                                    <option>Ayesha Khan</option>
+                                    <option>Sara Noor</option>
+                                    <option>Hassan Ali</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Share support details, ask for files, or suggest next steps."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-teal btn-block">Send</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>HelpHub AI is built as a premium-feel, multi-page community support product using HTML, CSS, JavaScript, and LocalStorage.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
